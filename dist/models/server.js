@@ -36,7 +36,7 @@ class Server {
                 console.log('Database online');
             }
             catch (error) {
-                console.log('Ocurrio un error en la conexión con la db');
+                console.log(error, 'Ocurrio un error en la conexión con la db');
             }
         });
     }
