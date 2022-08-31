@@ -15,7 +15,7 @@ services:
       DB_DIALECT: postgres
       DB_USER: root
       DB_PASS: root
-      DB_HOST: 172.20.0.2
+      DB_HOST: local_postgres
       DB_PORT: 5432
       DB_NAME: node_server
 networks:
